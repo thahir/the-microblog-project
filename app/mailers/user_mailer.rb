@@ -1,5 +1,5 @@
 class UserMailer < ActionMailer::Base
-  default :from => "microblog@kennethcalamay.com"
+  default :from => "freezing-samurai-9577.heroku.com"
 
   def follower_notification(followed, follower)
     @followed, @follower = followed, follower
