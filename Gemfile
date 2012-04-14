@@ -9,7 +9,10 @@ gem 'will_paginate', '3.0.pre2'
 gem 'transitions', :require => ['transitions', 'active_record/transitions']
 gem 'haml'
 gem "rake", "~> 0.9.2.2"
+<<<<<<< HEAD
 gem "action_mailer_tls", "~> 1.1.3"
+=======
+>>>>>>> 3ac2e5bdb2831ee40ef352f25c18053b291d630b
 group :development do
   gem 'rspec-rails', '2.1.0'
 end

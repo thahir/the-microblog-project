@@ -22,6 +22,7 @@ SampleApp::Application.configure do
 
   # Only use best-standards-support built into browsers
   config.action_dispatch.best_standards_support = :builtin
+<<<<<<< HEAD
   config.action_mailer.delivery_method= :smtp
   config.action_mailer.smtp_settings = {
            :enable_starttls_auto =>true,
@@ -32,5 +33,7 @@ SampleApp::Application.configure do
       :user_name =>'s.thahirhussain@gmail.com',
       :password=>'fit_4life'
   }
+=======
+>>>>>>> 3ac2e5bdb2831ee40ef352f25c18053b291d630b
 end
 

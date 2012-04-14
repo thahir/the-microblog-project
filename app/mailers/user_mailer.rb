@@ -1,5 +1,9 @@
 class UserMailer < ActionMailer::Base
+<<<<<<< HEAD
   default :from => "The Microblog Project"
+=======
+  default :from => "freezing-samurai-9577.heroku.com"
+>>>>>>> 3ac2e5bdb2831ee40ef352f25c18053b291d630b
 
   def follower_notification(followed, follower)
     @followed, @follower = followed, follower
