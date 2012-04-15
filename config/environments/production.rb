@@ -23,16 +23,7 @@ SampleApp::Application.configure do
   # Only use best-standards-support built into browsers
   config.action_dispatch.best_standards_support = :builtin
 
-  config.action_mailer.delivery_method= :smtp
-  config.action_mailer.smtp_settings = {
-           :enable_starttls_auto =>true,
-      :address=>'smtp.gmail.com',
-  :port=>587,
-      :authentication=> :plain,
-      :domain=>'http://freezing-samurai-9577.heroku.com',
-      :user_name =>'s.thahirhussain@gmail.com',
-      :password=>'fit_4life'
-  }
+  
 
 end
 
